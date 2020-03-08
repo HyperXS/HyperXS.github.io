@@ -14,3 +14,18 @@ Author: StrugglingDoge
 SileoDepiction: https://thestrugglingdoge.github.io/repo/sileodepictions/com.struggling.darkify/depiction.json
 Depiction: https://thestrugglingdoge.github.io/repo/depictions/?p=com.struggling.darkify
 Icon: https://raw.githubusercontent.com/thestrugglingdoge/repo/gh-pages/assets/TweakIcons/darkifyicon.png
+
+Package: hyper.xs.edjingdjmixhack
+Version: 0.1
+Section: Tweaks
+Maintainer: D4MAG3
+Architecture: iphoneos-arm
+Filename: ./debs/hyper.xs.edjingdjmixhack.deb
+Size: 3648
+MD5sum: effaee839358f3de217ff88afed1fa00
+SHA1: e9a99606b680ac844844dc4cadbc249357a91b6a
+SHA256: bded3a6727446bf110b62815cb84495e2b85e9dc50f64799293f393907670241
+Description: edjing Mix - dj Subscription
+Name: edjing Mix - dj Hack
+Author: D4MAG3
+Icon: https://raw.githubusercontent.com/thestrugglingdoge/repo/gh-pages/assets/TweakIcons/darkifyicon.png
