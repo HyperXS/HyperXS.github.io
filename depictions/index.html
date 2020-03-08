@@ -216,30 +216,7 @@
                 } //render
             }
     }
-    $( document ).ready(function() {
-        $.ajax({type: "GET", dataType: "xml",url : ("../repo.xml"),cache: false,
-            success : function(xml){
-				      data_loader_engine(repoContents,xml);
-              setAnchorTargets();
-			      },
-            error: function() {
-              $("#contactInfo").hide();
-              setAnchorTargets();
-            }
-        }); //ajax
 
-
-    }); // ready
-
-</script>
-
-<div id="contactInfo">
-	<div class="container">
-		<h5>CONTACT</h5>
-		<ul class="list-group" id="repoFooterLinks">
-		</ul>
-	</div>
-</div>
 
 
 </body>
