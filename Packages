@@ -16,7 +16,7 @@ Depiction: https://thestrugglingdoge.github.io/repo/depictions/?p=com.struggling
 Icon: https://raw.githubusercontent.com/thestrugglingdoge/repo/gh-pages/assets/TweakIcons/darkifyicon.png
 
 Package: hyper.xs.edjingdjmixhack
-Version: 0.1
+Version: 0.1-1
 Section: Tweaks
 Maintainer: D4MAG3
 Architecture: iphoneos-arm
