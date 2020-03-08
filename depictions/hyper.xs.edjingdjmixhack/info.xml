@@ -1,60 +1,25 @@
 <package>
-	<id>hyper.xs.edjingdjmixhack</id>
-	<name>edjing Mix - dj</name>
-	<version>0.1</version>
+	<id>com.struggling.darkify</id>
+	<name>Darkify</name>
+	<version>0.2-2</version>
 	<compatibility>
-		<firmware>
-			<miniOS>11.2</miniOS>
-		</firmware>
 	</compatibility>
 	<dependencies>
 	</dependencies>
-	<shortDescription>A simple yet elegant way of waching anime on your favorite anime website.</shortDescription>
+	<shortDescription>Darkify is a dark theme for all iOS devices that keeps all icons fimiliar looking but with a dark grey gradient and adds a bit more depth to the icons.</shortDescription>
 	<descriptionlist>
-    <description>This tweak was created by Marcus Zhou and is open source! Check it out: https://github.com/SuperMarcus/NineAnimator </description>
+		<description>Darkify is a dark theme for all iOS devices that keeps all icons fimiliar looking but with a dark grey gradient and adds a bit more depth to the icons. There are over 130+ icons and counting!</description>
+		<description>I'm always taking icon requests! You can fill out a icon request form here: https://forms.gle/x38ZhSwcx3wreiUUA (copy and paste into safari)</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<description>Featured Animes</description>
-			<image>screenshot_1.png</image>
+			<description>Showcase</description>
+			<image>s1.png</image>
 		</screenshot>		
-		<screenshot>
-			<description>Recently Viewed</description>
-			<image>screenshot_2.png</image>
-		</screenshot>
-    <screenshot>
-      <description>Search</description>
-      <image>screenshot_3.png</image>
-    </screenshot>
-    <screenshot>
-      <description>Search Results</description>
-      <image>screenshot_4.png</image>
-    </screenshot>
-    <screenshot>
-      <description>Choose Episodes</description>
-      <image>screenshot_5.png</image>
-    </screenshot>
-    <screenshot>
-      <description>Chromecast</description>
-      <image>screenshot_6.png</image>
-    </screenshot>
-    <screenshot>
-      <description>Featured Animes (iPad)</description>
-      <image>screenshot_7.png</image>
-    </screenshot>
-    <screenshot>
-      <description>Picture in Picture (iPad)</description>
-      <image>screenshot_8.png</image>
-    </screenshot>
-  </screenshots>
+	</screenshots>
 	<changelog>
-		<change>Initial release</change>
+		<change>Adds 35+ new icons(Keep suggesting!)</change>
 	</changelog>
 	<links>
-		<link>
-			<name>Need Help?</name>
-			<url>https://github.com/SuperMarcus/NineAnimator</url>
-			<iconclass>fa fa-github</iconclass>
-		</link>
 	</links>
 </package>
