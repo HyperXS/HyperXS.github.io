@@ -40,14 +40,7 @@
 				,"source" :"package>descriptionlist>description"
 				,"paragraphElement"	: "<li class='list-group-item'>"
 				,"emptyListCallback":function(e){$("#descriptionPanel").hide()}
-			}
-        ,"#screenshotsLink"	:
-			{"type":"custom"
-				,"source" :"package>screenshots>"
-				,"render":function(element, source){
-					$("#screenshotsLink").remove();
-					if ($(source).size() == 0) {
-						return
+
 					}
 					// create screenshots link
 					$("#descriptionList").append(
