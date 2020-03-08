@@ -1,7 +1,7 @@
 <package>
 	<id>com.marcuszhou.NineAnimator</id>
 	<name>NineAnimator</name>
-	<version>1.0.3</version>
+	<version>0.1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>11.2</miniOS>
@@ -12,8 +12,6 @@
 	<shortDescription>A simple yet elegant way of waching anime on your favorite anime website.</shortDescription>
 	<descriptionlist>
     <description>This tweak was created by Marcus Zhou and is open source! Check it out: https://github.com/SuperMarcus/NineAnimator </description>
-		<description>A simple yet elegant way of waching anime on your favorite anime website. NineAnimator is a free and open source anime watching app for iOS.</description>
-		<description>This application only supports iOS 11.2 and above. Also, please report any issues to the above github!</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
