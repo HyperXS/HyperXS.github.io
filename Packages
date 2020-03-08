@@ -16,7 +16,7 @@ Depiction: https://thestrugglingdoge.github.io/repo/depictions/?p=com.struggling
 Icon: https://raw.githubusercontent.com/thestrugglingdoge/repo/gh-pages/assets/TweakIcons/darkifyicon.png
 
 Package: hyper.xs.edjingdjmixhack
-Version: 0.1-1
+Version: 0.1
 Section: Tweaks
 Maintainer: D4MAG3
 Architecture: iphoneos-arm
@@ -28,5 +28,3 @@ SHA256: bded3a6727446bf110b62815cb84495e2b85e9dc50f64799293f393907670241
 Description: edjing Mix - dj Subscription
 Name: edjing Mix - dj Hack
 Author: D4MAG3
-Icon: https://raw.githubusercontent.com/thestrugglingdoge/repo/gh-pages/assets/TweakIcons/darkifyicon.png
-Depiction: https://hyperxs.github.io/depictions/?p=hyper.xs.edjingdjmixhack
