@@ -1,8 +1,8 @@
-Origin: HyperXS
-Label: HyperXS
+Origin: Sidia
+Label: Sidia
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: A small repository to hold some of my own tweaks/themes and other apps
+Description: Sidia - a modern cydia / sileo apt repository template

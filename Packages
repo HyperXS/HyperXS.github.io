@@ -1,30 +1,16 @@
-Package: com.struggling.darkify
-Version: 0.2-2
-Section: Themes
-Maintainer: StrugglingDoge
-Architecture: iphoneos-arm
-Filename: ./debs/com.struggling.darkify.deb
-Size: 4536920
-MD5sum: e7afb25b6099249cb94182f36bd132bb
-SHA1: 0367b46511be3112133011c9730d311d08ad79e6
-SHA256: edcf94979c64c1dbaa1e56b181afdf26be4083f8aed62b4761b75cc480c46ac7
-Description: Darkify is a dark theme for all iOS devices that keeps all icons fimiliar looking but with a dark grey gradient and adds a bit more depth to the icons.
-Name: Darkify
-Author: StrugglingDoge
-SileoDepiction: https://thestrugglingdoge.github.io/repo/sileodepictions/com.struggling.darkify/depiction.json
-Depiction: https://thestrugglingdoge.github.io/repo/depictions/?p=com.struggling.darkify
-Icon: https://raw.githubusercontent.com/thestrugglingdoge/repo/gh-pages/assets/TweakIcons/darkifyicon.png
-
-Package: hyper.xs.edjingdjmixhack
-Version: 0.1-1
-Section: Tweaks
-Maintainer: D4MAG3
-Architecture: iphoneos-arm
-Filename: ./debs/hyper.xs.edjingdjmixhack_0.1_iphoneos-arm.deb
-Size: 3648
-MD5sum: effaee839358f3de217ff88afed1fa00
-SHA1: e9a99606b680ac844844dc4cadbc249357a91b6a
-SHA256: bded3a6727446bf110b62815cb84495e2b85e9dc50f64799293f393907670241
-Description: edjing Mix - dj Premium
-Name: edjing Mix dj Premium
-Author: D4MAG3
+Package: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
+Version: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
+Architecture: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
+Maintainer: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
+Filename: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
+Size: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
+MD5sum: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
+SHA1: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
+SHA256: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
+Section: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
+Description: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
+SileoDepiction: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py or Manually Entered if Not In Tweaks `control` file.
+Depiction: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py or Manually Entered if Not In Tweaks `control` file.
+Installed-Size: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
+Name: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
+Priority: AUTOMATICALLY ENTERED BY SCRIPT / DPKG-SCANPACKAGES.py
