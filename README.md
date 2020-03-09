@@ -1,76 +1,92 @@
-<center>
-  <h1 align="center">repo.me</h1>
-  <h4 align="center">A modern package manager repository template. This template contains samples on how you can easily make depiction pages without replicating your html pages. The pages are styled using <a href"https://getbootstrap.com">Bootstrap</a> which is really easy to use (for Cydia), and the Sileo pages are styled using JavaScript Object Notation.</h4>
-  <h4 align="center">If you use web depictions / Reposi3, Sileo now converts web depictions to native depictions in realtime.</h4>
-</center>
+# Reposi3
+A Cydia repository template. This template contains sample on how you can easily make depiction pages without replicating your html pages. The pages are styled using [Bootsrap](http://getbootstrap.com/) which is really easy to use. You can see how it looks like by visiting [this sample repo](https://supermamon.github.io/Reposi3/) on your desktop or mobile phone.
 
-This guide does NOT cover creating .deb files but will briefly cover assiging depictions.
-
-#### CREDITS TO: [Supermamon](https://github.com/Supermamon/), [Essentialis Repo](https://twitter.com/EssentialisRepo/), [Saurik](https://twitter.com/Saurik/), [Sileo Team](https://twitter.com/getSileo/), and the [AppTapp Team](https://twitter.com/AppTappTeam/).
-#### Note: With the release of Silica from [Shuga](https://github.com/ShugaBuga/), I highly recommend using that over this for Sileo, however, do as you wish.
+Most data for this repo is stored on XML files and are loaded on the depiction page dynamically. See the guide below on how to set it up. Note that this guide doesn't cover creating .deb files but will briefly cover assiging depictions.
 
 ## How to use this template
-If you are *not* hosting your repo on [Github Pages](https://pages.github.com/), you can download the zip file [here](https://github.com/sukarodo/repo.me/archive/master.zip) and extract to a subfolder on your website.
+
+### 1. Download
+
+If you are *not* hosting your repo on [Github Pages](https://pages.github.com/), you can download the zip file [here](https://github.com/supermamon/Reposi3/archive/master.zip) and extract to a subfolder on your website.
+
+There are 2 options for those using [Github Pages](https://pages.github.com/).
+
+A. If you want to use your root `username.github.io` as your repo, fork this repo and rename it to `username.github.io`. So when adding it in Cydia, use `https://username.github.io`.
+
+B. If you want to use a subfolder for your existing `username.github.io` as your repo (example `username.github.io/repo`), fork this repo and rename it to `repo`. So when adding it in Cydia, use `https://username.github.io/repo`.
+
+You can change `repo` to anything you want, like `cydia` for example. So your repo url would be `https://username.github.io/cydia`.
+
+
+#### 2. Personalize
 
 **Release File**
 
 Edit `Release` file. Modify the items pointed by `<--`
 
-    Origin: repo.me  <--
-    Label: repo.me   <--
+    Origin: Reposi3  <--
+    Label: Reposi3   <--
     Suite: stable
     Version: 1.0
     Codename: ios
     Architectures: iphoneos-arm
     Components: main
-    Description: repo.me - a modern & legacy apt repository template  <--
+    Description: Reposi3 - a cydia repo template  <--
 
 **Branding**
 
-Open `index.html`
-Change <title>repo.me</title> to whatever you wish.
-Change lines 54 - 63 to whatever you wish.
-Change line 71 into your own URL.
-Note: YOU DO NOT NEED THIS. YOU CAN ALSO MAKE YOUR OWN. DO WHAT YOU WISH.
+Open `index.html` and look at lines 18 and 19.
+Change line 18 into your own **brand** and line 19 to have your own URL.
+Line2 27-44 contains the list of featured packages.
+You can edit those too or remove them totally.
 
-Add "CydiaIcon.png" for your Cydia / Sileo Repository Logo.
+Replace CydiaIcon.png.
 
 
 **Page Footers**
 
-This data are the links that appear at the bottom of every **Cydia Depiction**. The data is stored in `repo.xml` at the root folder of your repo.
+This data are the links that appear at the bottom of every depication. The data is stored in `repo.xml` at the root folder of your repo.
 
 ```xml
 <repo>
     <footerlinks>
         <link>
             <name>Follow me on Twitter</name>
-            <url>https://twitter.com/Sukarodo</url>
+            <url>https://twitter.com/reposi3</url>
             <iconclass>glyphicon glyphicon-user</iconclass>
         </link>
         <link>
             <name>I want this depiction template</name>
-            <url>https://github.com/sukarodo/sidia</url>
+            <url>https://github.com/supermamon/Reposi3</url>
             <iconclass>glyphicon glyphicon-thumbs-up</iconclass>
         </link>
     </footerlinks>
 </repo>
 ```
-### Depictions: Native Folder Is Sileo, Web is Cydia
 
-### Adding a simple depiction page (Cydia)
 
-Go to the depictions folder and duplicate the folder `com.sukarodo.oldpackage`.
+#### 3. Your repo is _almost_ ready.
+At this point your repo is basically ready to be added into Cydia.
+You can also visit your repo's homepage by going to `https://username.github.io/repo/`.
+It will come with 2 sample packages, Old Package and New Package.
+Each of the packages have a link on this page pointing to their depictions.
+Next guide will show you how to assign and customize your depiction pages.
+
+## Adding packages first package to your repo
+
+#### 1. Adding a simple depiction page
+
+Go to the depictions folder and duplicate the folder `com.supermamon.oldpackage`.
 Rename the duplicate with the same name as your package name.
 There are 2 files inside the folder - `info.xml` and `changelog.xml`.
 Update the 2 files with information regading your package.
 The tags are pretty much self-explanatory.
-Contact [@sukarodo](https://twitter.com/sukarodo) for questions.
+Contact [@reposi3](https://twitter.com/reposi3) or [@supermamon](https://twitter.com/supermamon) for questions.
 
 `info.xml`.
 ```xml
 <package>
-    <id>com.sukarodo.oldpackage</id>
+    <id>com.supermamon.oldpackage</id>
     <name>Old Package</name>
     <version>1.0.0-1</version>
     <compatibility>
@@ -104,61 +120,42 @@ Contact [@sukarodo](https://twitter.com/sukarodo) for questions.
     </changes>
 </changelog>
 ```
-### Adding a simple depiction page (Sileo)
 
-Go to the /depictions/native/com.sukarodo.samplepackage and copy the file `depiction.json`.
-Move into a folder labeled as your package name.
-Edit The Labeled Parts (i.e. VERSION_NUMBER, TWEAK_NAME, etc.)., use the Sileo Depiction Generator by [@M4cs](https://twitter.com/maxbridgland): [SileoGen](https://sileogen.com/), or use any of the templates from popular
-repositories at /assets/Depiction Templates
-Contact [@sukarodo](https://twitter.com/sukarodo) for questions.
 
-#### Link the depiction page in your tweak's `control` file
+#### 2. Link the depiction page your tweak's `control` file
 
 You can add the depictions url at the end of your package's `control` file before compiling it.
 The depiction line should look like this:
 
 ```text
-Depiction: https://username.github.io/repo/depictions/web/?p=[idhere]
+Depiction: https://username.github.io/repo/depictions/?p=[idhere]
 ```
 
 Replace `[idhere]` with your actual package name.
 
 ```text
-Depiction: https://username.github.io/repo/depictions/web/?p=com.sukarodo.oldpackage
+Depiction: https://username.github.io/repo/depictions/?p=com.supermamon.oldpackage
 ```
-For Sileo Depictions, add the SileoDepiction key in your `control` file before compiling it.
 
-```text
-SileoDepiction: https://username.github.io/repo/depictions/native/com.sukarodo.samplepackage/depiction.json
-````
-
-#### Rebuilding the `Packages` file
+#### 3. Rebuilding the `Packages` file
 
 With your updated `control` file, build your tweak.
-*REMOVE THE PACKAGES FILE WITHIN FIRST*
-Store the resulting `.deb.` file into the `/debians/` folder of your repo.
+Store the resulting `.deb.` file into the `/debs/` folder of your repo.
 Build your `Packages` file and compress with `bzip2`.
+
+```sh
+user:~/ $ cd repo
+user:~/repo $ dpkg-scanpackages -m ./debs > Packages
+user:~/repo $ bzip2 Packages
+```
 
 _Windows users, see [dpkg-scanpackages-py](https://github.com/supermamon/dpkg-scanpackages-py) or [scanpkg](https://github.com/mstg/scanpkg)._
 
-#### Repository at last!
+#### 5. Cydia at last!
 
-If you haven't done yet, go ahead and add your repo to your package manager.
-You should now be able to install your tweak from your own repo.
+If you haven't done yet, go ahead and add your repo to Cydia.
+You should now be able to install your tweak into your own repo.
 
 ### Cleanup
 
-Just a cleanup step, remove the debs that came with this template and re-run the commands on step 3. You can keep the sample depictions for reference but they're not needed for your repo.
-
-## Sileo Extras
-
-These are some extra things that can make your repository look even better on Sileo.
-
-### Featured Packages (`sileo-featured.json`)
-
-Change The Following Lines:
-```
- "url": "https://raw.githubusercontent.com/sukarodo/repo.me/master/assets/Banners/RepoHeader.png", <---- The Package Banner
-        "title": "Sample Package", <---- Your Package Name
-        "package": "com.sukarodo.newpackage", <---- The Actual Package
-```
+Just a cleanup step, remove the debs that came with this template and re-run the commands on step 3. You can keep the sample depictions for reference by they're not needed for your repo.
